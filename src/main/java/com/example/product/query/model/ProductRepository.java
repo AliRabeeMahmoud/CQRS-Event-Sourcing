@@ -1,4 +1,4 @@
-package com.example.product.query.data;
+package com.example.product.query.model;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

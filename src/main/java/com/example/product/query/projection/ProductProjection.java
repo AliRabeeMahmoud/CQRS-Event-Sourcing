@@ -2,11 +2,10 @@ package com.example.product.query.projection;
 
 
 import com.example.product.command.events.ProductAddedEvent;
-import com.example.product.query.data.Product;
-import com.example.product.query.data.ProductRepository;
+import com.example.product.query.model.Product;
+import com.example.product.query.model.ProductRepository;
 import com.example.product.command.dto.AddProductCommandDto;
 import com.example.product.query.queries.GetProductsQuery;
-import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.beans.BeanUtils;
