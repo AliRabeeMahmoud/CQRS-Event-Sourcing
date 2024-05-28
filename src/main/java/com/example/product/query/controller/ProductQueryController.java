@@ -1,6 +1,6 @@
 package com.example.product.query.controller;
 
-import com.example.product.command.model.AddProductCommandDto;
+import com.example.product.command.dto.AddProductCommandDto;
 import com.example.product.query.queries.GetProductsQuery;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;

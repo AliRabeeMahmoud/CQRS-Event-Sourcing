@@ -1,7 +1,7 @@
 package com.example.product.command.controller;
 
 import com.example.product.command.commands.AddProductCommand;
-import com.example.product.command.model.AddProductCommandDto;
+import com.example.product.command.dto.AddProductCommandDto;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

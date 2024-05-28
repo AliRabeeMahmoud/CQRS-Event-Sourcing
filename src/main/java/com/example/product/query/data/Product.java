@@ -1,4 +1,4 @@
-package com.example.product.command.data;
+package com.example.product.query.data;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

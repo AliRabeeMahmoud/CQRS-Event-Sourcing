@@ -1,4 +1,4 @@
-package com.example.product.command.model;
+package com.example.product.command.dto;
 
 import lombok.Builder;
 import lombok.Data;
